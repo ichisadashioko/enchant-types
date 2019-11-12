@@ -3,3 +3,7 @@
 // Definitions by: shioko <https://github.com/ichisadashioko>
 
 declare function enchant(): void;
+
+declare namespace enchant {
+
+}

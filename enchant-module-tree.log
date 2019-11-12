@@ -1,0 +1,201 @@
+enchant
+├── Class
+|   ├── create
+|   └── getInheritanceTree
+├── ENV
+|   ├── VERSION
+|   ├── BROWSER
+|   ├── VENDOR_PREFIX
+|   ├── TOUCH_ENABLED
+|   ├── RETINA_DISPLAY
+|   ├── USE_FLASH_SOUND
+|   ├── USE_DEFAULT_EVENT_TAGS
+|   ├── CANVAS_DRAWING_METHODS
+|   ├── KEY_BIND_TABLE
+|   |   ├── 37
+|   |   ├── 38
+|   |   ├── 39
+|   |   └── 40
+|   ├── PREVENT_DEFAULT_KEY_CODES
+|   ├── SOUND_ENABLED_ON_MOBILE_SAFARI
+|   ├── USE_TOUCH_TO_START_SCENE
+|   ├── USE_WEBAUDIO
+|   ├── USE_ANIMATION
+|   └── COLOR_DETECTION_LEVEL
+├── Event
+|   ├── LOAD
+|   ├── ERROR
+|   ├── CORE_RESIZE
+|   ├── PROGRESS
+|   ├── ENTER_FRAME
+|   ├── EXIT_FRAME
+|   ├── ENTER
+|   ├── EXIT
+|   ├── CHILD_ADDED
+|   ├── ADDED
+|   ├── ADDED_TO_SCENE
+|   ├── CHILD_REMOVED
+|   ├── REMOVED
+|   ├── REMOVED_FROM_SCENE
+|   ├── TOUCH_START
+|   ├── TOUCH_MOVE
+|   ├── TOUCH_END
+|   ├── RENDER
+|   ├── INPUT_START
+|   ├── INPUT_CHANGE
+|   ├── INPUT_END
+|   ├── INPUT_STATE_CHANGED
+|   ├── LEFT_BUTTON_DOWN
+|   ├── LEFT_BUTTON_UP
+|   ├── RIGHT_BUTTON_DOWN
+|   ├── RIGHT_BUTTON_UP
+|   ├── UP_BUTTON_DOWN
+|   ├── UP_BUTTON_UP
+|   ├── DOWN_BUTTON_DOWN
+|   ├── DOWN_BUTTON_UP
+|   ├── A_BUTTON_DOWN
+|   ├── A_BUTTON_UP
+|   ├── B_BUTTON_DOWN
+|   ├── B_BUTTON_UP
+|   ├── ADDED_TO_TIMELINE
+|   ├── REMOVED_FROM_TIMELINE
+|   ├── ACTION_START
+|   ├── ACTION_END
+|   ├── ACTION_TICK
+|   ├── ACTION_ADDED
+|   ├── ACTION_REMOVED
+|   └── ANIMATION_END
+├── EventTarget
+├── Core
+|   ├── _loadFuncs
+|   |   ├── bmp
+|   |   ├── png
+|   |   ├── gif
+|   |   ├── jpeg
+|   |   ├── jpg
+|   |   ├── ogg
+|   |   ├── wav
+|   |   ├── m4a
+|   |   ├── aac
+|   |   └── mp3
+|   ├── findExt
+|   └── instance
+├── Game
+|   ├── _loadFuncs
+|   |   ├── bmp
+|   |   ├── png
+|   |   ├── gif
+|   |   ├── jpeg
+|   |   ├── jpg
+|   |   ├── ogg
+|   |   ├── wav
+|   |   ├── m4a
+|   |   ├── aac
+|   |   └── mp3
+|   ├── findExt
+|   └── instance
+├── InputManager
+├── InputSource
+├── BinaryInputManager
+├── BinaryInputSource
+├── KeyboardInputManager
+├── KeyboardInputSource
+|   ├── _instances
+|   └── getByKeyCode
+├── Node
+├── Entity
+|   ├── _collectionTarget
+|   ├── intersect
+|   ├── intersectStrict
+|   ├── collection
+|   ├── _collective
+|   └── _inherited
+├── Sprite
+|   ├── _collectionTarget
+|   ├── intersect
+|   ├── intersectStrict
+|   ├── collection
+|   └── _collective
+├── Label
+|   ├── _collectionTarget
+|   ├── intersect
+|   ├── intersectStrict
+|   ├── collection
+|   └── _collective
+├── Map
+|   ├── _collectionTarget
+|   ├── intersect
+|   ├── intersectStrict
+|   ├── collection
+|   └── _collective
+├── Group
+├── Matrix
+|   └── instance
+|       └── stack
+├── DetectColorManager
+├── DomManager
+├── DomlessManager
+├── DomLayer
+|   ├── _attachDomManager
+|   └── _detachDomManager
+├── CanvasLayer
+|   ├── _attachCache
+|   └── _detachCache
+├── CanvasRenderer
+|   └── instance
+├── Scene
+├── LoadingScene
+├── CanvasScene
+├── DOMScene
+├── Surface
+|   ├── load
+|   ├── _staticCanvas2DContext
+|   └── _getPattern
+├── Deferred
+|   ├── _insert
+|   ├── next
+|   └── parallel
+├── DOMSound
+|   └── load
+├── WebAudioSound
+|   └── load
+├── Sound
+|   └── load
+├── Easing
+|   ├── LINEAR
+|   ├── SWING
+|   ├── QUAD_EASEIN
+|   ├── QUAD_EASEOUT
+|   ├── QUAD_EASEINOUT
+|   ├── CUBIC_EASEIN
+|   ├── CUBIC_EASEOUT
+|   ├── CUBIC_EASEINOUT
+|   ├── QUART_EASEIN
+|   ├── QUART_EASEOUT
+|   ├── QUART_EASEINOUT
+|   ├── QUINT_EASEIN
+|   ├── QUINT_EASEOUT
+|   ├── QUINT_EASEINOUT
+|   ├── SIN_EASEIN
+|   ├── SIN_EASEOUT
+|   ├── SIN_EASEINOUT
+|   ├── CIRC_EASEIN
+|   ├── CIRC_EASEOUT
+|   ├── CIRC_EASEINOUT
+|   ├── ELASTIC_EASEIN
+|   ├── ELASTIC_EASEOUT
+|   ├── ELASTIC_EASEINOUT
+|   ├── BOUNCE_EASEOUT
+|   ├── BOUNCE_EASEIN
+|   ├── BOUNCE_EASEINOUT
+|   ├── BACK_EASEIN
+|   ├── BACK_EASEOUT
+|   ├── BACK_EASEINOUT
+|   ├── EXPO_EASEIN
+|   ├── EXPO_EASEOUT
+|   └── EXPO_EASEINOUT
+├── ActionEventTarget
+├── Timeline
+├── Action
+├── ParallelAction
+└── Tween
