@@ -5,5 +5,8 @@
 declare function enchant(): void;
 
 declare namespace enchant {
-
+    namespace ENV {
+        const VERSION: '0.8.3';
+        const BROWSER: 'eagle' | 'opera' | 'ie' | 'chrome' | 'safari' | 'firefox' | 'android' | '';
+    }
 }
